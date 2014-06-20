@@ -1,4 +1,5 @@
 # this loop print 1 to 10 to data1.txt
+# add a new comment
 
 for i in {1..10}; do
    echo $i >> data1.txt
