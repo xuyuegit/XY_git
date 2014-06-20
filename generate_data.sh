@@ -1,4 +1,6 @@
-# add the first line
-# add the second line
-# add the third line
-# add the fourth line
+# genterate data 1 - 10
+
+for i in {1..10}; do 
+   let j=i+1
+   echo $i $j >> data1.txt
+done
